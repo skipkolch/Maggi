@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorGray"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/firstWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="60sp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/first"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/secondWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="60sp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/second"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/threeWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="60sp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/three"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/fourWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="60sp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/four"
+        android:textColor="@color/colorWhite"
+        android:textSize="28sp" />
+
+
+</LinearLayout>
