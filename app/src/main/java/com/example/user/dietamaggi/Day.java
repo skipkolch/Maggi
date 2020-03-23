@@ -1,29 +1,25 @@
 package com.example.user.dietamaggi;
 
-public class Day
-{
+class Day {
     private String breakfast;
     private String lunch;
     private String dinner;
 
-    public Day(String breakfast,String lunch,String dinner)
-    {
+    Day(String breakfast, String lunch, String dinner) {
         this.breakfast = breakfast;
         this.lunch = lunch;
         this.dinner = dinner;
     }
 
-    public String getBreakfast() {
+    String getBreakfast() {
         return breakfast;
     }
 
-    public String getLunch() {
+    String getLunch() {
         return lunch;
     }
 
-
-    public String getDinner() {
+    String getDinner() {
         return dinner;
     }
-
 }
